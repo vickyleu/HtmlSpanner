@@ -22,8 +22,6 @@ import java.io.Reader;
 import java.util.HashMap;
 import java.util.Map;
 
-import android.util.Log;
-
 import net.nightwhistler.htmlspanner.css.CSSCompiler;
 import net.nightwhistler.htmlspanner.exception.ParsingCancelledException;
 import net.nightwhistler.htmlspanner.handlers.*;

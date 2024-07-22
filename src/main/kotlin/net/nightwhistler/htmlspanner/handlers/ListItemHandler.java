@@ -22,7 +22,6 @@ import net.nightwhistler.htmlspanner.spans.ListItemSpan;
 
 import org.htmlcleaner.TagNode;
 
-import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 
 /**

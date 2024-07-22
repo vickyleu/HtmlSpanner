@@ -2,8 +2,6 @@ package net.nightwhistler.htmlspanner.style;
 
 import net.nightwhistler.htmlspanner.FontFamily;
 
-import java.lang.reflect.Field;
-
 /**
  * CSS Style object.
  *

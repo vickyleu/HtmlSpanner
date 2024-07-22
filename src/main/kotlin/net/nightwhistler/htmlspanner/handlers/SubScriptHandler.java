@@ -15,28 +15,25 @@
  */
 package net.nightwhistler.htmlspanner.handlers;
 
-import net.nightwhistler.htmlspanner.FontFamily;
 import net.nightwhistler.htmlspanner.SpanStack;
-import net.nightwhistler.htmlspanner.spans.FontFamilySpan;
-import net.nightwhistler.htmlspanner.style.Style;
-import org.htmlcleaner.TagNode;
-
-import android.text.Spannable;
-import android.text.SpannableStringBuilder;
-import android.text.style.TypefaceSpan;
 import net.nightwhistler.htmlspanner.TagNodeHandler;
 
+import org.htmlcleaner.TagNode;
+
+import android.text.SpannableStringBuilder;
+import android.text.style.SubscriptSpan;
+
 /**
- * Sets monotype font.
+ * Applies subscript style.
  * 
  * @author Alex Kuiper
  * 
  */
-public class MonoSpaceHandler extends StyledTextHandler {
+public class SubScriptHandler extends TagNodeHandler {
 
-    @Override
-    public Style getStyle() {
-        return new Style().setFontFamily(
-                getSpanner().getFontResolver().getMonoSpaceFont() );
-    }
+	public void handleTagNode(TagNode node, SpannableStringBuilder builder,
+			int start, int end, SpanStack spanStack) {
+
+		spanStack.pushSpan(new SubscriptSpan(), start, end);
+	}
 }

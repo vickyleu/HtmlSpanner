@@ -19,13 +19,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.graphics.*;
-import android.graphics.drawable.ShapeDrawable;
-import android.graphics.drawable.shapes.RectShape;
-import android.util.Log;
+
 import net.nightwhistler.htmlspanner.SpanStack;
 import net.nightwhistler.htmlspanner.TagNodeHandler;
 
-import org.htmlcleaner.ContentNode;
 import org.htmlcleaner.TagNode;
 
 import android.graphics.Paint.Style;

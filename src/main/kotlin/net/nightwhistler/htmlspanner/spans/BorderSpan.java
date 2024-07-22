@@ -1,12 +1,7 @@
 package net.nightwhistler.htmlspanner.spans;
 
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Paint;
-import android.graphics.Rect;
-import android.graphics.drawable.Drawable;
-import android.graphics.drawable.ShapeDrawable;
-import android.text.style.DynamicDrawableSpan;
 import android.text.style.LineBackgroundSpan;
 import android.util.Log;
 import net.nightwhistler.htmlspanner.HtmlSpanner;

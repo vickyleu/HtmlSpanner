@@ -20,21 +20,20 @@ import net.nightwhistler.htmlspanner.TagNodeHandler;
 
 import org.htmlcleaner.TagNode;
 
-import android.text.Spannable;
 import android.text.SpannableStringBuilder;
-import android.text.style.SubscriptSpan;
+import android.text.style.SuperscriptSpan;
 
 /**
- * Applies subscript style.
+ * Applies superscript.
  * 
  * @author Alex Kuiper
  * 
  */
-public class SubScriptHandler extends TagNodeHandler {
+public class SuperScriptHandler extends TagNodeHandler {
 
 	public void handleTagNode(TagNode node, SpannableStringBuilder builder,
 			int start, int end, SpanStack spanStack) {
-
-		spanStack.pushSpan(new SubscriptSpan(), start, end);
+		spanStack.pushSpan(new SuperscriptSpan(), start, end);
 	}
+
 }

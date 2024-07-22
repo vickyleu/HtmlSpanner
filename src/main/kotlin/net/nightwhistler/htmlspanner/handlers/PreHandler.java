@@ -24,9 +24,7 @@ import net.nightwhistler.htmlspanner.spans.FontFamilySpan;
 import org.htmlcleaner.ContentNode;
 import org.htmlcleaner.TagNode;
 
-import android.text.Spannable;
 import android.text.SpannableStringBuilder;
-import android.text.style.TypefaceSpan;
 
 /**
  * Handles pre tags, setting the style to monospace and preserving the

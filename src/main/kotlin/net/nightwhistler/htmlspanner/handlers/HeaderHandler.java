@@ -15,14 +15,8 @@
  */
 package net.nightwhistler.htmlspanner.handlers;
 
-import android.util.Log;
-import net.nightwhistler.htmlspanner.SpanStack;
-
 import net.nightwhistler.htmlspanner.style.Style;
 import net.nightwhistler.htmlspanner.style.StyleValue;
-import org.htmlcleaner.TagNode;
-
-import android.text.SpannableStringBuilder;
 
 /**
  * Handles Headers, by assigning a relative text-size.

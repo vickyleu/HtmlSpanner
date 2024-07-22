@@ -15,9 +15,6 @@
  */
 package net.nightwhistler.htmlspanner;
 
-import android.util.Log;
-import net.nightwhistler.htmlspanner.spans.FontFamilySpan;
-
 import org.htmlcleaner.TagNode;
 
 import android.text.SpannableStringBuilder;
